@@ -19,5 +19,10 @@ add_executable(zhan1 zhan/main.cpp)
 add_executable(duilie zhan/duilie.cpp)
 add_executable(duilie2 zhan/duilie2.cpp)
 
+#串
+add_executable(cuan1 cuan/main.cpp)
+
 # Tree
 add_executable(tree Tree/Tree.cpp)
+add_executable(btree Tree/bitree0.cpp)
+add_executable(ttree Tree/Tree_test.cpp)
