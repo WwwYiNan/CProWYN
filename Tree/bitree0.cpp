@@ -38,8 +38,6 @@ void middleTranver(bt *p)
         frontTranver(p->r);
      }
 }
-
-
 void rearTranver(bt *p)
 {
     if(p==NULL) return;
@@ -76,7 +74,7 @@ bt *find(bt *p,char x){
    else return NULL;
    }
    
-main()
+int main()
 {
     bt *p,*f;
     p=create();
@@ -86,6 +84,7 @@ main()
     printf("finding:%p",f);
     printf("\nfound: %c:self=%p leftson=%p rightson=%p\n",f->d,f,f->l,f->r);
     printf("\n");
+    return 0;
 }
 
 

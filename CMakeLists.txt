@@ -6,6 +6,8 @@ project(CPro)
 
 add_executable(CPro main.cpp)
 add_executable(test Test1.cpp)
+add_executable(d1 demo01.cpp)
+
 add_executable(2  main_2.cpp)
 add_executable(3  main_3.cpp)
 add_executable(4  main_4.cpp)
@@ -24,5 +26,8 @@ add_executable(cuan1 cuan/main.cpp)
 
 # Tree
 add_executable(tree Tree/Tree.cpp)
+add_executable(l31 Tree/lab3_01.cpp)
+add_executable(l32 Tree/lab3_02.cpp)
+add_executable(l33 Tree/lab3_03.cpp)
 add_executable(btree Tree/bitree0.cpp)
 add_executable(ttree Tree/Tree_test.cpp)
